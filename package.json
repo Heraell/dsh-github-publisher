@@ -1,0 +1,34 @@
+{
+  "name": "@local/dsh-github-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Connect GitHub inside DeepSeek Harness and push AI-generated code straight to a repository.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "meta": {
+    "title": "GitHub 发布器",
+    "description": "在 Harness 页面内连接 GitHub，并把 AI 生成的代码直接推送到仓库。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
