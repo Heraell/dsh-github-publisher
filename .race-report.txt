@@ -1,0 +1,7 @@
+RESULT      ok=true uploaded=5 failed=0
+FILES       client.js, index.js, lib/a.js, lib/b.js, locale/zh.json
+FAILURES    none
+RACE        0 conflict(s) encountered and resolved, 5 commits, 5 reads
+PARENTS     every write after the first saw a fresh head: true
+INTEGRITY   all 5 files uploaded
+RE-PUBLISH  ok=true uploaded=5 failed=0 (existing files updated)
