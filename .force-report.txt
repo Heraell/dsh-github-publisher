@@ -1,5 +1,0 @@
-RESULT      ok=false uploaded=1 failed=1
-FAILURES    b.js: 仓库当前为空或存在并发写入，请重试。（branch is at head-2, not the commit the read saw）
-RACE        5 conflict(s) hit, then resolved by the retry
-COMMITS     a.js@head-1
-VERDICT     STILL FAILING
