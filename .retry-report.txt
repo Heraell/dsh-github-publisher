@@ -1,0 +1,8 @@
+RETRY       succeeded after 2 PUT(s)
+SHAS SENT   stale-sha -> current-blob-sha
+RE-READ     1 GET(s) between attempts (must be >= 1)
+VERDICT     stale parent replaced by a fresh read
+BOUNDED     threw after 3 attempts (limit 3): github-409 — 仓库当前为空或存在并发写入，请重试。（permanent conflict）
+VERDICT     bounded, and the real GitHub message is preserved
+NO-RETRY    422 thrown after 2 attempt(s): 参数被 GitHub 拒绝：分支名可能非法，或文件内容不符合该仓库规则。（content is not valid base64）
+VERDICT     a permanent 422 gets one probe, then its own message
