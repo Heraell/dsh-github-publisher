@@ -1,0 +1,4 @@
+- insert:
+    - id: github-publisher
+      name: '@local/dsh-github-publisher'
+      config: {}
